@@ -2,6 +2,7 @@ package com.rami.firebasedemo2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -48,6 +49,8 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onSuccess(AuthResult authResult) {
                 Toast.makeText(LoginActivity.this,"Login Successful!" ,Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(LoginActivity.this , MainActivity.class));
+                finish();
             }
         });
     }
