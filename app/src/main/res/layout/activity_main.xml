@@ -12,13 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="M2B"
-        android:textSize="34sp"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.046" />
 
     <TextView
         android:id="@+id/textView4"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.139" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buybtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Köp"
@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.72" />
 
     <Button
-        android:id="@+id/sell"
+        android:id="@+id/sellbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sälj"
@@ -67,29 +67,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.86" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Meny"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.944"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Madeleine BernaDotte"
-        android:textSize="24sp"
+        android:textSize="34sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.258" />
+        app:layout_constraintVertical_bias="0.237" />
 
     <ImageView
         android:id="@+id/imageView2"

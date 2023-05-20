@@ -28,6 +28,6 @@
         android:layout_below="@+id/password"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="98dp"
-        android:layout_marginEnd="162dp"
-        android:text="Login" />
+        android:layout_marginEnd="153dp"
+        android:text="Logga in" />
 </RelativeLayout>
